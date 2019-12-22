@@ -13,12 +13,12 @@ npm install -g browserify watchify
 Prior to developing the code, run the following code:
 
 ```
-watchify main.js -o bundle.js -v
+watchify includes/main.js -o includes/bundle.js -v
 ```
 
 Any update to `main.js` will be merged with any imported modules over to `bundle.js`. Once the `bundle.js` is ready for production, run the following code to minify and obscure the code:
 
 ```
-browserify main.js | uglifyjs > bundle.js
+browserify includes/main.js | uglifyjs > includes/bundle.js
 ```
 

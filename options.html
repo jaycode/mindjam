@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="options.css">
+    <link rel="stylesheet" href="includes/options.css">
+    <link rel="stylesheet" href="includes/bootstrap/css/bootstrap.min.css">
+    <!-- <script src="includes/bootstrap/js/bootstrap.min.js"></script> -->
   </head>
   <body>
+    <div>Go to <code>chrome://flags</code> and enable "Experimental Web Platform features"</div>
     <div id="topMenu">
       <label for="visualization">Visualization:</label>
       <select id="visualization" name="visualization">
@@ -13,15 +16,28 @@
       </select>
     </div>
     <div id="museList">
+
       <div class="museContainer id-muse">
         <div class="id-headsetName">
           Not connected
         </div>
         <div class="links">
           <button class='id-buttonConnect'>Connect</button>
+          <button class='id-buttonDisconnect'>Disconnect</button>
         </div>
       </div>
+
+      <div class="museContainer id-muse">
+        <div class="id-headsetName">
+          Not connected
+        </div>
+        <div class="links">
+          <button class='id-buttonConnect'>Connect</button>
+          <button class='id-buttonDisconnect'>Disconnect</button>
+        </div>
+      </div>
+      
     </div>
   </body>
-  <script src="bundle.js"></script>
+  <script src="includes/bundle.js"></script>
 </html>
