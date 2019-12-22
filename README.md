@@ -1,4 +1,3 @@
-
 # MindJam
 
 Jamming with multiple minds through Muse 2 headband!
