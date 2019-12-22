@@ -1,0 +1,16 @@
+{
+    "name": "MindJam",
+    "version": "1.0",
+    "description": "Jam of multiple minds with Muse",
+    "permissions": ["tabs", "activeTab", "declarativeContent", "storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "web_accessible_resources": ["src/options/options.html"],
+    "manifest_version": 2
+}
