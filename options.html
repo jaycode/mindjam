@@ -9,11 +9,11 @@
     <div>Go to <code>chrome://flags</code> and enable "Experimental Web Platform features"</div>
     <div id="topMenu">
       <label for="visualization">Visualization:</label>
-      <select id="visualization" name="visualization">
+      <!-- <select id="visualization" name="visualization">
         <option selected>Raw</option>
         <option>Wave Bands</option>
         <option>PPG</option>
-      </select>
+      </select> -->
     </div>
     <div id="museList">
 
@@ -27,17 +27,43 @@
         </div>
       </div>
 
-      <div class="museContainer id-muse">
-        <div class="id-headsetName">
-          Not connected
-        </div>
-        <div class="links">
-          <button class='id-buttonConnect'>Connect</button>
-          <button class='id-buttonDisconnect'>Disconnect</button>
-        </div>
-      </div>
-      
     </div>
+    <div>
+      <div>Battery: <span id="batteryLevel"></span></div>
+      <div>X: <span id="accelerometer-x"></span></div>
+      <div>Y: <span id="accelerometer-y"></span></div>
+      <div>Z: <span id="accelerometer-z"></span></div>
+      <div>Hardware version: <span id="hardware-version"></span></div>
+      <div>Software version: <span id="firmware-version"></span></div>
+      <div class="electrode-section">
+          <div class="electrode-item">
+              <h3>Electrode 1</h3>
+              <canvas id="electrode1"></canvas>
+          </div>
+
+          <div class="electrode-item">
+              <h3>Electrode 2</h3>
+              <canvas id="electrode2"></canvas>
+          </div>
+
+          <div class="electrode-item">
+              <h3>Electrode 3</h3>
+              <canvas id="electrode3"></canvas>
+          </div>
+
+          <div class="electrode-item">
+              <h3>Electrode 4</h3>
+              <canvas id="electrode4"></canvas>
+          </div>
+
+          <div class="electrode-item">
+              <h3>Electrode 5</h3>
+              <canvas id="electrode5"></canvas>
+          </div>
+      </div>
+
+    </div>
+
   </body>
   <script src="includes/bundle.js"></script>
 </html>

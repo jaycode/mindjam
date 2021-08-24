@@ -8,36 +8,36 @@
       "integrity": "sha1-XPCBwyAyNUNxLEnEntUgv2XurRo="
     },
     "jquery": {
-      "version": "3.4.1",
-      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.4.1.tgz",
-      "integrity": "sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw=="
+      "version": "3.6.0",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.6.0.tgz",
+      "integrity": "sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw=="
     },
     "muse-js": {
-      "version": "3.1.0",
-      "resolved": "https://registry.npmjs.org/muse-js/-/muse-js-3.1.0.tgz",
-      "integrity": "sha512-uH/yAfQIL0rOvgtbxFPb5C07X+M4vAD/2vDkVbi+NKocT2ADbbg2igHjiNvdN6dRhom9VfZ2S6HG2dvjnXa2jQ==",
+      "version": "3.2.0",
+      "resolved": "https://registry.npmjs.org/muse-js/-/muse-js-3.2.0.tgz",
+      "integrity": "sha512-rSm8y0B3rBRi11T7dmyJBfLuvC1Z5H0wDDHSZUR3ywyN16Zij5x7WOXWgMIpY/tPeu3ggZuY/kdW1nb13pTGmQ==",
       "requires": {
         "@types/web-bluetooth": "^0.0.2",
         "rxjs": "^6.0.0 || ^5.6.0-forward-compat.4"
       }
     },
     "popper.js": {
-      "version": "1.16.0",
-      "resolved": "https://registry.npmjs.org/popper.js/-/popper.js-1.16.0.tgz",
-      "integrity": "sha512-+G+EkOPoE5S/zChTpmBSSDYmhXJ5PsW8eMhH8cP/CQHMFPBG/kC9Y5IIw6qNYgdJ+/COf0ddY2li28iHaZRSjw=="
+      "version": "1.16.1",
+      "resolved": "https://registry.npmjs.org/popper.js/-/popper.js-1.16.1.tgz",
+      "integrity": "sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ=="
     },
     "rxjs": {
-      "version": "6.5.3",
-      "resolved": "https://registry.npmjs.org/rxjs/-/rxjs-6.5.3.tgz",
-      "integrity": "sha512-wuYsAYYFdWTAnAaPoKGNhfpWwKZbJW+HgAJ+mImp+Epl7BG8oNWBCTyRM8gba9k4lk8BgWdoYm21Mo/RYhhbgA==",
+      "version": "6.6.7",
+      "resolved": "https://registry.npmjs.org/rxjs/-/rxjs-6.6.7.tgz",
+      "integrity": "sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==",
       "requires": {
         "tslib": "^1.9.0"
       }
     },
     "tslib": {
-      "version": "1.10.0",
-      "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.10.0.tgz",
-      "integrity": "sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ=="
+      "version": "1.14.1",
+      "resolved": "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz",
+      "integrity": "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
     }
   }
 }
